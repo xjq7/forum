@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>2.7.18</version>
+		<relativePath/>
 	</parent>
 	<groupId>com.stu</groupId>
-	<artifactId>st</artifactId>
+	<artifactId>forum</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>st</name>
-	<description>init</description>
+	<name>forum</name>
+	<description>社区</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -24,9 +24,39 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>3.3.0</version>
+     	</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.14.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
