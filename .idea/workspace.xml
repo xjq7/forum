@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89ffcf89-c2c1-4465-95e5-d52df6688da5" name="更改" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stu/forum/mapper/ArticleMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resource/db.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/stu/forum/entity/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/stu/forum/service/UserService.java" afterDir="false" />
@@ -12,7 +13,11 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/stu/forum/web/user/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/forum/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stu/forum/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/forum/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stu/forum/service/impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/forum/web/article/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stu/forum/web/article/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

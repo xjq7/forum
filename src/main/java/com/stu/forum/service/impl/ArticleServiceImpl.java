@@ -3,17 +3,25 @@ package com.stu.forum.service.impl;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.stu.forum.entity.Article;
+import com.stu.forum.mapper.ArticleMapper;
 import com.stu.forum.service.ArticleService;
+import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
+@Service
 public class ArticleServiceImpl implements ArticleService{
+    @Resource
+    private ArticleMapper articleMapper;
 
     @Override
     public int insert(Article entity) {
+
+
         return 0;
     }
 
@@ -74,7 +82,7 @@ public class ArticleServiceImpl implements ArticleService{
 
     @Override
     public List<Article> selectList(Wrapper<Article> queryWrapper) {
-        return null;
+        return articleMapper.selectList();
     }
 
     @Override

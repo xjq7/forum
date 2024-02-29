@@ -12,9 +12,5 @@ import java.io.Serializable;
 public class Article implements Serializable {
     @TableId
     @TableField("id")
-    private Long articleId;
-
-    private String title;
-
-    private Long authorId;
+    private Long id;
 }
